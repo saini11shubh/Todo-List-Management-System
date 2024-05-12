@@ -40,6 +40,11 @@ npm install
 npm run start
 ```
 
+### Validation
 #### CORS Whitelist
 
 Update the values in of CORS_WHITELIST in `.env` and For specifying multiple origins, separate them with commas. To allow requests from any origin, use the wildcard symbol "*".
+
+#### Request Validation with Joi
+
+In this project, we utilize Joi, a powerful schema description language and data validator for JavaScript, to validate incoming requests to our API endpoints. Joi helps ensure that the data sent to our server meets the specified criteria, preventing invalid or malicious input from causing issues within our application.
